@@ -109,14 +109,18 @@
            toolchains="com.freescale.s32ds.cross.gnu.e200.toolChain"
             gitBranch="master"
             gitPath="https://github.com/dungtp2/b54189_e200.git">
-		<headerFolder
+         <resourceFile
                copy="false"
-               path="/">
-         </headerFolder>
-         <sourceFolder
+               path="/main.c">
+         </resourceFile>
+         <binaryFile
                copy="false"
-               path="/">
-         </sourceFolder>
+               path="/libmylibrary_Z4.a">
+         </binaryFile>
+		 <headerFolder
+				path="/include"
+				copy="false">
+		</headerFolder>
       </sdk>
       <sdk	version="1.0.0"
 			name="dungtp2_ghs_GIT"
@@ -127,14 +131,18 @@
             toolchains="ghs.managedmake.ppc.executable.toolchain" 
             gitBranch="master"
             gitPath="https://github.com/dungtp2/b54189_e200.git">
-		<headerFolder
+         <resourceFile
                copy="false"
-               path="/">
-         </headerFolder>
-         <sourceFolder
+               path="/main.c">
+         </resourceFile>
+         <binaryFile
                copy="false"
-               path="/">
-         </sourceFolder>
+               path="/libmylibrary_Z4.a">
+         </binaryFile>
+		 <headerFolder
+				path="/include"
+				copy="false">
+		</headerFolder>
       </sdk>
    </extension>   
    <extension
