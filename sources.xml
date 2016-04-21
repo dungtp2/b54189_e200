@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<sdks>
+<sdk 		version="1.0.0"
+            description="Test SDK loaded from GIT FOR GCC"
+            name="dungtp2_gcc_GIT"
+			cores="MPC5602B:Z0,MPC5603B:Z0,MPC5604B:Z0,MPC5605B:Z0,MPC5606B:Z0,MPC5607B:Z0,MPC5646C:Z0,MPC5646C:Z4"
+			toolchains="com.freescale.s32ds.cross.gnu.e200.toolChain">
+         <resourceFile
+               copy="false"
+               path="/a.c">
+         </resourceFile>
+         <binaryFile
+               copy="false"
+               path="/a.a">
+         </binaryFile>
+</sdk>
+<sdk 		version="1.0.0"
+            description="Test SDK loaded from GIT FOR GHS"
+            name="dungtp2_ghs_GIT"
+			cores="MPC5602B:Z0,MPC5603B:Z0,MPC5604B:Z0,MPC5605B:Z0,MPC5606B:Z0,MPC5607B:Z0,MPC5646C:Z0,MPC5646C:Z4"
+			toolchains="ghs.managedmake.ppc.executable.toolchain">
+         <resourceFile
+               copy="false"
+               path="/a.c">
+         </resourceFile>
+         <binaryFile
+               copy="false"
+               path="/a.a">
+         </binaryFile>
+</sdk>
+</sdks>
