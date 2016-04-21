@@ -8,12 +8,16 @@
 			toolchains="com.freescale.s32ds.cross.gnu.e200.toolChain">
          <resourceFile
                copy="false"
-               path="/a.c">
+               path="/main.c">
          </resourceFile>
          <binaryFile
                copy="false"
-               path="/a.a">
+               path="/libmylibrary_Z4.a">
          </binaryFile>
+		 <headerFolder
+				path="/include"
+				copy="false">
+		</headerFolder>
 </sdk>
 <sdk 		version="1.0.0"
             description="Test SDK loaded from GIT FOR GHS"
@@ -22,11 +26,15 @@
 			toolchains="ghs.managedmake.ppc.executable.toolchain">
          <resourceFile
                copy="false"
-               path="/a.c">
+               path="/main.c">
          </resourceFile>
          <binaryFile
                copy="false"
-               path="/a.a">
+               path="/libmylibrary_Z4.a">
          </binaryFile>
+		 <headerFolder
+				path="/include"
+				copy="false">
+		</headerFolder>
 </sdk>
 </sdks>
